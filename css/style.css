@@ -96,7 +96,7 @@ ol {
     font-size: 1em;
     font-weight: 700;
     text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 /*--//banner --*/
@@ -146,10 +146,9 @@ img.admin {
 
 .inner-w3layouts-wrap {
     margin: 0 auto;
-    width: 20%;
+    width: 25%;
     padding-top: 4em;
     text-align: center;
-
 }
 
 .tab-main section {
@@ -376,7 +375,7 @@ form.contact-form {
         margin: 0 auto;
         width: 80%;
         padding-top: 3em;
-        text-align: center;
+        text-align: left;
     }
 
     .banner-info {
@@ -486,3 +485,12 @@ form.contact-form {
 @media(max-width:375px) {}
 
 /*--//responsive--*/
+
+.lst_link {
+    font-family: Microsoft YaHei;
+    color:#FFFFFF;
+    font-size:100%;
+    height:25px;
+    text_align:left;
+    background:#00008B
+}
