@@ -34,7 +34,6 @@ for file in os.listdir(page_dir):
     with open(path, 'w', encoding='utf-8') as f:
         f.write(html)
 
-
 with open('static/template/pages.html', 'r', encoding='utf-8') as f:
     html = f.read()
 index_content=''
